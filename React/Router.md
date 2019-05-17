@@ -21,15 +21,9 @@ const Log = () => (
 // Link 标签相当于Vue-router中的 router-link
 const Nav = () => (
   <div>
-    <Link to='/home'>
-    主页
-    </Link>
-    <Link to='/content'>
-    内容
-    </Link>
-    <Link to='/log'>
-    日志
-    </Link>
+    <Link to='/home'>主页</Link>
+    <Link to='/content'>内容</Link>
+    <Link to='/log'>日志</Link>
   </div>
 )
 class App extends Component {

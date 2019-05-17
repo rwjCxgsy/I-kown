@@ -1,6 +1,6 @@
 # Parcel 简易介绍
 
-相对于webpack复杂的配置，Parcel 配置相对于简单的多得多
+相对于webpack复杂的配置，Parcel 配置相对于简单的多得多，直接在html中引入一个js入口
 
 Parcel特点
 
