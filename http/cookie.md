@@ -46,7 +46,10 @@ document.cookie = `username=ydaodao; expires=${new Date().toGMTstring()}`
 
 ## Cookie 跨域共享
 
-domain表示的是cookie所在的域，默认为请求的地址，如网址为www.jb51.net/test/test.aspx，那么domain默认为www.jb51.net。而跨域访问，如域A为t1.test.com，域B为t2.test.com，那么在域A生产一个令域A和域B都能访问的cookie就要将该cookie的domain设置为.test.com；如果要在域A生产一个令域A不能访问而域B能访问的cookie就要将该cookie的domain设置为t2.test.com。
+> Cookie跨域共享通过domain来实现
+domain表示的是cookie所在的域，默认为请求的地址。如网址为www.yaodao.com/a/b，那么domain默认为www.yaodao.com。
+
+跨域访问，如域A为t1.test.com，域B为t2.test.com，那么在域A生产一个令域A和域B都能访问的cookie就要将该cookie的domain设置为.test.com；如果要在域A生产一个令域A不能访问而域B能访问的cookie就要将该cookie的domain设置为t2.test.com。
 
 ### 参考文章
 
