@@ -130,11 +130,16 @@ class Point {
     }
 }
 
+const circulares = new Set()
+circulares.add(new Point(100, 100, 50))
+circulares.add(new Point(200, 200, 50))
+
+// 定义animate函数来绘制圆形
 function animate () {
     requestAnimationFrame(animate)
     ctx.clearRect(0, 0, width, height)
-    for (const point of points) {
-        point.updata()
+    for (const circular of circulares) {
+        circular.updata()
     }
 }
 animate()
