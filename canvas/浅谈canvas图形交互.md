@@ -139,3 +139,5 @@ function animate () {
 }
 animate()
 ```
+
+![demo](https://raw.githubusercontent.com/rwjCxgsy/I-kown/master/canvas/circular.gif)
